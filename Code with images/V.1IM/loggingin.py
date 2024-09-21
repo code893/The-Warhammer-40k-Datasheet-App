@@ -26,7 +26,8 @@ def loginPage():
 		MAIN MENU
 Enter a choice:
 1 - Login
-2 - Exit
+2 - Create a new account
+3 - Exit
 """)
 		choice = int(input("Enter a choice: "))
 		if choice == 1:
@@ -51,7 +52,30 @@ LOGIN PAGE""")
 				print("""
 
         Username not found        """)
-
+				
+		elif choice == 2:
+			system('clear')
+			print("""
+USER REGISTRATION PAGE""")
+			new_username = input("New username: ")
+			while new_username.lower() in users:
+				print("Username already exists")
+				new_username = input("New username: ")
+			new_password = input("Password (8 characters or more): ")
+			attempts = 3
+			while len(new_password) < 8 and attempts !=0:
+				print("Password must be 8 characters or more")
+				attempts -= 1
+				new_password = input("Password (8 characters or more): ")
+			if attempts == 0:
+				print("You have been locked out")
+				quit()
+			print("You have sucessfully created a new user account")
+			file = open("usernames.txt", "a")
+			file.write("\n" + new_username.lower() + "," + new_password)
+			file.close()
+			login_page = False
+			
 		elif choice == 2:
 			system('clear')
 			print("""
