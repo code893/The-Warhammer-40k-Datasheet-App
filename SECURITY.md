@@ -2,14 +2,12 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| V1IM    | :x:                |
-| V1DI    | :x:                |
-| V2      | :white_check_mark: |
+| Version | Supported Security | Use in Website      |
+| ------- | ------------------ | ------------------- |
+| v1IM    | :x:                | :x:                 |
+| v1DI    | :x:                | :x:                 |
+| v2.0    | :white_check_mark: | :x:                 |
+| v2.1    | :white_check_mark: | :white_check_mark:  |
 
 ## Reporting a Vulnerability
 
