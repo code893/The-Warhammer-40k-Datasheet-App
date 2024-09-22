@@ -9,7 +9,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | V1IM    | :x:                |
 | V1DI    | :x:                |
-| V2      | ✅: |
+| V2      | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
