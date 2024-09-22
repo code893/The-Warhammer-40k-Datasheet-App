@@ -7,7 +7,7 @@
       Don't use alpha it is not supported
     </p>
     <p>
-      Current version is v2.2 don't use previous, they have a login page.
+      Current version is v2.2 don't use previous login page is removed
     </p>
   </body>
 </html>
