@@ -6,8 +6,6 @@ import random
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-from loggingin import loginPage
-
 from datetime import datetime, timedelta
 
 
