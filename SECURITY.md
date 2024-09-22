@@ -6,8 +6,9 @@
 | ------- | ------------------ | ------------------- |
 | v1IM    | :x:                | :x:                 |
 | v1DI    | :x:                | :x:                 |
-| v2.0    | :white_check_mark: | :x:                 |
-| v2.1    | :white_check_mark: | :white_check_mark:  |
+| v2.0    | :x:                | :x:                 |
+| v2.1    | :x:                | :x:                 |  
+| v2.2    | :white_check_mark: | :white_check_mark:  |
 
 ## Reporting a Vulnerability
 
