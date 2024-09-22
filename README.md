@@ -7,7 +7,7 @@
       Don't use alpha it is not supported
     </p>
     <p>
-      Current version is V2
+      Current version is v2.0 or v2.1
     </p>
   </body>
 </html>
