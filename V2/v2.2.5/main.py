@@ -279,56 +279,57 @@ class Weapons:
 
 # Define races with segments containing Space Marine models
 imperium = {
+imperium = {
     "Combat Patrol": [
-        Model_stat("Infernus Squad", 1, 6, 2, 4, 3, 6, ["Bolt Pistol", "Pyreblaster", "SpaceMarine CC weapon"], "None", 'Infernus Squad.jpg'), 
-        Model_stat("Terminator Squad", 1, 5, 3, 5, 2, 6, ["Power Sword", "Storm bolter", "Chainfist"], "4+",'Terminator Squad.jpg'),
-        Model_stat("Captain in Terminator Armour", 1, 5, 6, 5, 2, 6, ["Storm bolter", "Combi-weapon", "Relic fist", "Relic weapon"], "4+", 'Captain in Terminator Armour.jpg'),
-        Model_stat("Librarian in Terminator Armour", 1, 5, 5, 5, 2, 6, ["Combi-weapon", "Smite - witchfire", "Smite - focused witchfire",  "Storm bolter", "Force weapon"], "4+", 'Librarian in Terminator Armour.jpg'),
+        Model_stat("Infernus Squad", 6, 4, 3, 2, 6, 1, ["Bolt Pistol", "Pyreblaster", "SpaceMarine CC weapon"], "None", 'Infernus Squad.jpg'), 
+        Model_stat("Terminator Squad", 5, 5, 2, 3, 6, 1, ["Power Sword", "Storm bolter", "Chainfist"], "4+", 'Terminator Squad.jpg'),
+        Model_stat("Captain in Terminator Armour", 5, 5, 2, 6, 6, 1, ["Storm bolter", "Combi-weapon", "Relic fist", "Relic weapon"], "4+", 'Captain in Terminator Armour.jpg'),
+        Model_stat("Librarian in Terminator Armour", 5, 5, 2, 5, 6, 1, ["Combi-weapon", "Smite - witchfire", "Smite - focused witchfire",  "Storm bolter", "Force weapon"], "4+", 'Librarian in Terminator Armour.jpg'),
     ],
 
     "Other": [
-        Model_stat("Librarian", 1, 6, 4, 4, 3, 6, ["Bolt Pistol", "Smite - witchfire", "Smite - focused witchfire",  "Force weapon"], "None", 'Librarian.jpg'),
-        Model_stat("Captain", 1, 6, 5, 4, 3, 6, ["Bolt Pistol", "Heavy bolt pistol", "Master-crafted boltgun", "Neo-volkite pistol", "SpaceMarine CC weapon", "Master-crafted power weapon", "Power fist" ], "4+", 'Captain.jpg'),
-        Model_stat("Infernus Squad", 1, 6, 2, 4, 3, 6, ["Bolt Pistol", "Pyreblaster", "SpaceMarine CC weapon"], "None", 'Infernus Squad.jpg'), 
-        Model_stat("Terminator Squad", 1, 5, 3, 5, 2, 6, ["Power Sword", "Storm bolter", "Chainfist"], "4+", 'Terminator Squad.jpg'),
-        Model_stat("Captain in Terminator Armour", 1, 5, 6, 5, 2, 6, ["Storm bolter", "Combi-weapon", "Relic fist", "Relic weapon"], "4+", 'Captain in Terminator Armour.jpg'),
-        Model_stat("Librarian in Terminator Armour", 1, 5, 5, 5, 2, 6, ["Combi-weapon", "Smite - witchfire", "Smite - focused witchfire",  "Storm bolter", "Force weapon"], "4+", 'Librarian in Terminator Armour.jpg'),
-                            # OC M  W  T  S  L  Weapon --> Inv S
+        Model_stat("Librarian", 6, 4, 3, 4, 6, 1, ["Bolt Pistol", "Smite - witchfire", "Smite - focused witchfire", "Force weapon"], "None", 'Librarian.jpg'),
+        Model_stat("Captain", 6, 4, 3, 5, 6, 1, ["Bolt Pistol", "Heavy bolt pistol", "Master-crafted boltgun", "Neo-volkite pistol", "SpaceMarine CC weapon", "Master-crafted power weapon", "Power fist"], "4+", 'Captain.jpg'),
+        Model_stat("Infernus Squad", 6, 4, 3, 2, 6, 1, ["Bolt Pistol", "Pyreblaster", "SpaceMarine CC weapon"], "None", 'Infernus Squad.jpg'), 
+        Model_stat("Terminator Squad", 5, 5, 2, 3, 6, 1, ["Power Sword", "Storm bolter", "Chainfist"], "4+", 'Terminator Squad.jpg'),
+        Model_stat("Captain in Terminator Armour", 5, 5, 2, 6, 6, 1, ["Storm bolter", "Combi-weapon", "Relic fist", "Relic weapon"], "4+", 'Captain in Terminator Armour.jpg'),
+        Model_stat("Librarian in Terminator Armour", 5, 5, 2, 5, 6, 1, ["Combi-weapon", "Smite - witchfire", "Smite - focused witchfire",  "Storm bolter", "Force weapon"], "4+", 'Librarian in Terminator Armour.jpg'),
     ]
 }
-necron ={
-    "Combat Patrol": [               # OC M  W  T  S  L  Weapon --> Inv S
-        Model_stat( "Necron Warriors", 2, 5, 1, 4, 4, 7,  ["Gauss flayer", "Gauss reaper", "Necron CC weapon"], "None",'Necron Warriors.jpg'),
-        Model_stat( "Skorpekh Destroyers", 2, 8, 3, 6, 3, 7,  ["Skorpekh hyperphase weapons"], "None",'Skorpekh Destroyers.jpg'),
-        Model_stat( "Canoptek Scarab swarms", 0, 10, 4, 2, 6, 8,  ["Feeder mandibles"], "None",'Canoptek Scarab Swarms.jpg'),
-        Model_stat( "Canoptek Doomstalker", 4, 8, 12, 8, 3, 8,  ["Twin Gauss flayer", "Doomsday blaster", "Doomstalker limbs"], "4+",'Canoptek Doomstalker.jpg'),
-        Model_stat("Overlord", 1, 6, 6, 6, 3, 6, ["Staff of light(range)", "Tachyon arrow", "Staff of light(melee)", "Overlord's blade", "Voidscythe",], "4+",'Overlord.jpg')
+
+necron = {
+    "Combat Patrol": [
+        Model_stat("Necron Warriors", 5, 4, 4, 1, 7, 2, ["Gauss flayer", "Gauss reaper", "Necron CC weapon"], "None", 'Necron Warriors.jpg'),
+        Model_stat("Skorpekh Destroyers", 8, 6, 3, 3, 7, 2, ["Skorpekh hyperphase weapons"], "None", 'Skorpekh Destroyers.jpg'),
+        Model_stat("Canoptek Scarab swarms", 10, 2, 6, 4, 8, 0, ["Feeder mandibles"], "None", 'Canoptek Scarab Swarms.jpg'),
+        Model_stat("Canoptek Doomstalker", 8, 8, 3, 12, 8, 4, ["Twin Gauss flayer", "Doomsday blaster", "Doomstalker limbs"], "4+", 'Canoptek Doomstalker.jpg'),
+        Model_stat("Overlord", 6, 6, 3, 6, 6, 1, ["Staff of light(range)", "Tachyon arrow", "Staff of light(melee)", "Overlord's blade", "Voidscythe"], "4+", 'Overlord.jpg')
     ],
-    "Other": [               # OC M  W  T  S  L  Weapon --> Inv S
-        Model_stat( "Necron Warriors", 2, 5, 1, 4, 4, 7,  ["Gauss flayer", "Gauss reaper", "Necron CC weapon"], "None",'Necron Warriors.jpg'),
-        Model_stat( "Skorpekh Destroyers", 2, 8, 3, 6, 3, 7,  ["Skorpekh hyperphase weapons"], "None",'Skorpekh Destroyers.jpg'),
-        Model_stat( "Canoptek Scarab swarms", 0, 10, 4, 2, 6, 8,  ["Feeder mandibles"], "None",'Canoptek Scarab Swarms.jpg'),
-        Model_stat( "Canoptek Doomstalker", 4, 8, 12, 8, 3, 8,  ["Twin Gauss flayer", "Doomsday blaster", "Doomstalker limbs"], "4+",'Canoptek Doomstalker.jpg'),
-        Model_stat("Overlord", 1, 6, 6, 6, 3, 6, ["Staff of light(range)", "Tachyon arrow", "Staff of light(melee)", "Overlord's blade", "Voidscythe",], "4+",'Overlord.jpg'),
-        Model_stat("Monolith", 8, 8, 22, 13, 2, 7, ["Death ray", "Gauss flux arc", "Particle whip", "Portal of Exile",], "None",'Monolith.jpg')
+
+    "Other": [
+        Model_stat("Necron Warriors", 5, 4, 4, 1, 7, 2, ["Gauss flayer", "Gauss reaper", "Necron CC weapon"], "None", 'Necron Warriors.jpg'),
+        Model_stat("Skorpekh Destroyers", 8, 6, 3, 3, 7, 2, ["Skorpekh hyperphase weapons"], "None", 'Skorpekh Destroyers.jpg'),
+        Model_stat("Canoptek Scarab swarms", 10, 2, 6, 4, 8, 0, ["Feeder mandibles"], "None", 'Canoptek Scarab Swarms.jpg'),
+        Model_stat("Canoptek Doomstalker", 8, 8, 3, 12, 8, 4, ["Twin Gauss flayer", "Doomsday blaster", "Doomstalker limbs"], "4+", 'Canoptek Doomstalker.jpg'),
+        Model_stat("Overlord", 6, 6, 3, 6, 6, 1, ["Staff of light(range)", "Tachyon arrow", "Staff of light(melee)", "Overlord's blade", "Voidscythe"], "4+", 'Overlord.jpg'),
+        Model_stat("Monolith", 8, 13, 2, 22, 7, 8, ["Death ray", "Gauss flux arc", "Particle whip", "Portal of Exile"], "None", 'Monolith.jpg')
     ],
-    
+
     "The Silent King": [
-        Model_stat( "Szarekh", 6, 8, 16, 10, 2, 6,  ["Scepter of Eternal Glory", "Staff of Stars", "Weapons of the Final Triarch"], "4+",'Silent King.jpg'),
-        Model_stat( "Triarchal Menhir", 1, 8, 5, 10, 2, 6,  ["Annhiliator beam", "Armoured bulk"], "4+",'Silent King.jpg'),
-    ]                                 # OC M  W  T  S  L  Weapon --> Inv S
-    
+        Model_stat("Szarekh", 8, 10, 2, 16, 6, 6, ["Scepter of Eternal Glory", "Staff of Stars", "Weapons of the Final Triarch"], "4+", 'Silent King.jpg'),
+        Model_stat("Triarchal Menhir", 8, 10, 2, 5, 6, 1, ["Annhiliator beam", "Armoured bulk"], "4+", 'Silent King.jpg')
+    ]
 }
 
-tyranids ={
-    "Combat Patrol": [           # OC M  W  T  S  L  Weapon --> Inv S
-        Model_stat( "Psychophage", 3, 8, 10, 9, 3, 8,  ["Psychoclastic torrent", "Talons and betentacled maw"], "None",'Psychophage.jpg'),
-        Model_stat( "Termagaunts", 2, 6, 1, 3, 5, 8,  ["Fleshborer", "Shardlauncher", "Spike rifle", "Strangleweb", "Termagat devourer", "Termaguant spinefists", "Chitinous claws and teeth"], "None",'Termagaunts.jpg'),
+tyranids = {
+    "Combat Patrol": [
+        Model_stat("Psychophage", 8, 9, 3, 10, 8, 3, ["Psychoclastic torrent", "Talons and betentacled maw"], "None", 'Psychophage.jpg'),
+        Model_stat("Termagaunts", 6, 3, 5, 1, 8, 2, ["Fleshborer", "Shardlauncher", "Spike rifle", "Strangleweb", "Termagat devourer", "Termaguant spinefists", "Chitinous claws and teeth"], "None", 'Termagaunts.jpg')
     ],
-    
-    "Other": [           # OC M  W  T  S  L  Weapon --> Inv S
-        Model_stat( "Psychophage", 3, 8, 10, 9, 3, 8,  ["Psychoclastic torrent", "Talons and betentacled maw"], "None",'Psychophage.jpg'),
-        Model_stat( "Termagaunts", 2, 6, 1, 3, 5, 8,  ["Fleshborer", "Shardlauncher", "Spike rifle", "Strangleweb", "Termagat devourer", "Termaguant spinefists", "Chitinous claws and teeth"], "None",'Termagaunts.jpg'),
+
+    "Other": [
+        Model_stat("Psychophage", 8, 9, 3, 10, 8, 3, ["Psychoclastic torrent", "Talons and betentacled maw"], "None", 'Psychophage.jpg'),
+        Model_stat("Termagaunts", 6, 3, 5, 1, 8, 2, ["Fleshborer", "Shardlauncher", "Spike rifle", "Strangleweb", "Termagat devourer", "Termaguant spinefists", "Chitinous claws and teeth"], "None", 'Termagaunts.jpg')
     ]
 }
 
@@ -342,53 +343,52 @@ races = {
 }
 
 weapons = [                          # A  D  R WS/BS S AP
-    Weapons("Psychoclastic torrent", "D6", 1, 12, "N/A", 6, -1, ),
-    Weapons("Talons and betentacled maw", "D6+1", 2, 0, 3, 6, -1),
+weapons = [
+    Weapons("Psychoclastic torrent", 12, "D6", "N/A", 6, -1, 1),
+    Weapons("Talons and betentacled maw", 0, "D6+1", 3, 6, -1, 2),
 
-    Weapons("Necron CC weapon", 1, 1, 0, 4, 4, 0),
-    Weapons("Gauss flayer", 1, 1, 24, 4, 4, 0),
-    Weapons("Gauss reaper", 2, 1, 12, 4, 4, 0),
-    Weapons("Skorpekh hyperphase weapons", 4, 2, 0, 3, 7, -2),
-    Weapons("Feeder mandibles", 6, 1, 0, 5, 2, 0),
-    Weapons("Twin Gauss flayer", 1, 1, 24, 4, 4, 0),
-    Weapons("Doomsday blaster", "D6+1", 3, 48, 4, 14, 3),
-    Weapons("Doomstalker limbs", 3, 1, 0, 4, 6, 0),
-    Weapons("Tachyon arrow", 1, "D6+2", 72, 2, 16, -5),
-    Weapons("Staff of light(range)", 3, 1, 18, 2, 5, -2),
-    Weapons("Staff of light(melee)", 4, 1, 0, 2, 5, -2),
-    Weapons("Overlord's blade", 4, 2, 0, 2, 8, -3),
-    Weapons("Voidscythe", 3, 3, 0, 3, 12, -3),
-    Weapons("Death ray", 1, "D6+1", 24, 3, 12, -4),
-    Weapons("Gauss flux arc", 3, 1, 24, 3, 6, -1),
-    Weapons("Particle whip", "3D6", 3, 24, 3, 8, -1),
-    Weapons("Portal of Exile", 6, 3, 0, 2, 8, -2),
-    Weapons("Annhiliator beam", 1, 6, 24, 2, 14, -4),
-    Weapons("Armoured bulk", 1, 1, 0, 4, 4, 0),
-    Weapons("Staff of Stars", 12, 1, 24, 2, 6, -1),
-    Weapons("Weapons of the Final Triarch", 12, 2, 0, 2, 8, -3),
-    Weapons("Scepter of Eternal Glory", 2, 3, 0, 2, 10, -3),
-                           # A  D  R WS/BS S AP
+    Weapons("Necron CC weapon", 0, 1, 4, 4, 0, 1),
+    Weapons("Gauss flayer", 24, 1, 4, 4, 0, 1),
+    Weapons("Gauss reaper", 12, 2, 4, 4, 0, 1),
+    Weapons("Skorpekh hyperphase weapons", 0, 4, 3, 7, -2, 2),
+    Weapons("Feeder mandibles", 0, 6, 5, 2, 0, 1),
+    Weapons("Twin Gauss flayer", 24, 1, 4, 4, 0, 1),
+    Weapons("Doomsday blaster", 48, "D6+1", 4, 14, -3, 3),
+    Weapons("Doomstalker limbs", 0, 3, 4, 6, 0, 1),
+    Weapons("Tachyon arrow", 72, 1, 2, 16, -5, "D6+2"),
+    Weapons("Staff of light(range)", 18, 3, 2, 5, -2, 1),
+    Weapons("Staff of light(melee)", 0, 4, 2, 5, -2, 1),
+    Weapons("Overlord's blade", 0, 4, 2, 8, -3, 2),
+    Weapons("Voidscythe", 0, 3, 3, 12, -3, 3),
+    Weapons("Death ray", 24, 1, 3, 12, -4, "D6+1"),
+    Weapons("Gauss flux arc", 24, 3, 3, 6, -1, 1),
+    Weapons("Particle whip", 24, "3D6", 3, 8, -1, 3),
+    Weapons("Portal of Exile", 0, 6, 2, 8, -2, 3),
+    Weapons("Annhiliator beam", 24, 1, 2, 14, -4, 6),
+    Weapons("Armoured bulk", 0, 1, 4, 4, 0, 1),
+    Weapons("Staff of Stars", 24, 12, 2, 6, -1, 1),
+    Weapons("Weapons of the Final Triarch", 0, 12, 2, 8, -3, 2),
+    Weapons("Scepter of Eternal Glory", 0, 2, 2, 10, -3, 3),
 
-    Weapons("Bolt Pistol", 1, 1, 12, 2, 4, 0),
-    Weapons("Heavy bolt pistol", 1, 1, 12, 2, 4, -1),
-    Weapons("Pyreblaster", "D6", 1, 12, "N/A", 5, 0),
-    Weapons("SpaceMarine CC weapon", 3, 1, 0, 3, 4, 0),
-    Weapons("Boltgun", 2, 1, 24, 3, 4, 0),
-    Weapons("Master-crafted boltgun", 2, 2, 24, 2, 4, -1),
-    Weapons("Neo-volkite pistol", 1, 2, 12, 2, 5, 0),
-    Weapons("Heavy Bolter", 3, 2, 36, 4, 5, -1),
-    Weapons("Storm bolter", 2, 1, 24, 3, 4, 0),
-    Weapons("Combi-weapon", 1, 1, 24, 4, 4, 0),
-    Weapons("Relic fist", 5, 2, 0, 2, 8, -2),
-    Weapons("Relic weapon", 6, 2, 0, 2, 5, -2),
-    Weapons("Master-crafted power weapon", 6, 2, 0, 2, 5, -2),
-    Weapons("Power fist", 6, 2, 0, 2, 8, -2),
-    Weapons("Smite - witchfire", "D6", "D3", 24, 3, 5, -1),
-    Weapons("Smite - focused witchfire", "D6", "D3", 24, 3, 6, -2),
-    Weapons("Force weapon", 4, "D3", 0, 3, 6, -1)
-
-
+    Weapons("Bolt Pistol", 12, 1, 2, 4, 0, 1),
+    Weapons("Heavy bolt pistol", 12, 1, 2, 4, -1, 1),
+    Weapons("Pyreblaster", 12, "D6", "N/A", 5, 0, 1),
+    Weapons("SpaceMarine CC weapon", 0, 3, 3, 4, 0, 1),
+    Weapons("Boltgun", 24, 2, 3, 4, 0, 1),
+    Weapons("Master-crafted boltgun", 24, 2, 2, 4, -1, 2),
+    Weapons("Neo-volkite pistol", 12, 1, 2, 5, 0, 2),
+    Weapons("Heavy Bolter", 36, 3, 4, 5, -1, 2),
+    Weapons("Storm bolter", 24, 2, 3, 4, 0, 1),
+    Weapons("Combi-weapon", 24, 1, 4, 4, 0, 1),
+    Weapons("Relic fist", 0, 5, 2, 8, -2, 2),
+    Weapons("Relic weapon", 0, 6, 2, 5, -2, 2),
+    Weapons("Master-crafted power weapon", 0, 6, 2, 5, -2, 2),
+    Weapons("Power fist", 0, 6, 2, 8, -2, 2),
+    Weapons("Smite - witchfire", 24, "D6", 3, 5, -1, "D3"),
+    Weapons("Smite - focused witchfire", 24, "D6", 3, 6, -2, "D3"),
+    Weapons("Force weapon", 0, 4, 3, 6, -1, "D3")
 ]
+
 
 def search_models(search_term):
     results = []
