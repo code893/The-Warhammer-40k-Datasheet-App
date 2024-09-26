@@ -294,6 +294,7 @@ imperium = {
         Model_stat("Terminator Squad", 5, 5, 2, 3, 6, 1, ["Power Sword", "Storm bolter", "Chainfist"], "4+", 'Terminator Squad.jpg'),
         Model_stat("Captain in Terminator Armour", 5, 5, 2, 6, 6, 1, ["Storm bolter", "Combi-weapon", "Relic fist", "Relic weapon"], "4+", 'Captain in Terminator Armour.jpg'),
         Model_stat("Librarian in Terminator Armour", 5, 5, 2, 5, 6, 1, ["Combi-weapon", "Smite - witchfire", "Smite - focused witchfire",  "Storm bolter", "Force weapon"], "4+", 'Librarian in Terminator Armour.jpg'),
+        Model_stat("Devestator Squad", 6, 4, 3, 2, 6, 1, ["Bolt pistol", "Boltgun", "Grav-cannon", "Heavy bolter", "Lascannon", "Missile launcher – frag", "Missile launcher – krak", "Multi-melta"], "None", '#not done!!!')
     ]
 }
 
@@ -386,7 +387,9 @@ weapons = [
     Weapons("Power fist", 0, 6, 2, 8, -2, 2),
     Weapons("Smite - witchfire", 24, "D6", 3, 5, -1, "D3"),
     Weapons("Smite - focused witchfire", 24, "D6", 3, 6, -2, "D3"),
-    Weapons("Force weapon", 0, 4, 3, 6, -1, "D3")
+    Weapons("Force weapon", 0, 4, 3, 6, -1, "D3"),
+    Weapons("Grav-cannon", 24, 3, 4, 6, -1,	3),
+    
 ]
 
 
