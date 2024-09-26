@@ -11,6 +11,7 @@
     </p>
     <p>
       Current version is v2.2.5
+      v2.3 work in progress
     </p>
   </body>
 </html>
