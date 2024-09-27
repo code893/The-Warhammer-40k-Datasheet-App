@@ -279,7 +279,6 @@ class Weapons:
 
 # Define races with segments containing Space Marine models
 imperium = {
-imperium = {
     "Combat Patrol": [
         Model_stat("Infernus Squad", 6, 4, 3, 2, 6, 1, ["Bolt Pistol", "Pyreblaster", "SpaceMarine CC weapon"], "None", 'Infernus Squad.jpg'), 
         Model_stat("Terminator Squad", 5, 5, 2, 3, 6, 1, ["Power Sword", "Storm bolter", "Chainfist"], "4+", 'Terminator Squad.jpg'),
@@ -341,8 +340,7 @@ races = {
     # "Orks": ork,
     # "Eldar": eldar,
 }
-
-weapons = [                          # A  D  R WS/BS S AP
+     # A  D  R WS/BS S AP
 weapons = [
     Weapons("Psychoclastic torrent", 12, "D6", "N/A", 6, -1, 1),
     Weapons("Talons and betentacled maw", 0, "D6+1", 3, 6, -1, 2),
