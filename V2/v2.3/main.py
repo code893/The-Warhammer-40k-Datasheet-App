@@ -24,7 +24,6 @@ repeat_W = True
 
 
 def clear():
-    # Clear the console based on the operating system
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def custom_print(text):
@@ -38,7 +37,7 @@ def roll_dice(num_dice, target_number):
     passes = 0
 
     for _ in range(num_dice):
-        roll = random.randint(1, 6)  # Roll a 6-sided die
+        roll = random.randint(1, 6)
         results.append(roll)
         if roll >= target_number:
             passes += 1
@@ -181,8 +180,6 @@ def main():
                   repeat = True
 
 def dice_roller():
-
-    # Get number of dice from the user
     while True:
         try:
             num_dice = int(input("How many dice do you want to roll? "))
@@ -192,8 +189,6 @@ def dice_roller():
                 break
         except ValueError:
             print("Please enter a valid integer.")
-
-    # Get target number from the user
     while True:
         try:
             target_number = int(input("What number do you need to roll to pass? (2-6) "))
@@ -204,10 +199,8 @@ def dice_roller():
         except ValueError:
             print("Please enter a valid integer.")
 
-    # Roll the dice and get results
     results, passes = roll_dice(num_dice, target_number)
-
-    # Display results
+    
     print("\nDice Roll Results:")
     for i, result in enumerate(results, start=1):
         print(f"Die {i}: {result}")
@@ -334,7 +327,6 @@ tyranids = {
     ]
 }
 
-# Add more races as needed
 races = {
     "Imperium": imperium,
     "Necron": necron,
