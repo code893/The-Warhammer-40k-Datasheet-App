@@ -55,7 +55,7 @@ def main():
       elif SearchSelect_choice == "roll":
           dice_roller()
       elif SearchSelect_choice == "abilities":
-          print("Go to here:")
+          print("Go to here (Copy this link and paste it in the browser URL):")
           print("https://wahapedia.ru/wh40k10ed/the-rules/core-rules/#Weapon-Abilities\n")
           main()
       else:
